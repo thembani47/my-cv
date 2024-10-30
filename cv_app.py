@@ -8,23 +8,23 @@ st.markdown("""
         .title {
             font-size: 36px;
             font-weight: bold;
-            color: blue;
+            color: #1f4e79; /* Darker blue */
         }
         .subtitle {
             font-size: 24px;
-            color: blue;
+            color: #1f4e79; /* Darker blue */
         }
         .section-title {
             font-size: 18px;
             font-weight: bold;
-            color: blue;
-            border-bottom: 2px solid blue;
+            color: #1f4e79; /* Darker blue */
+            border-bottom: 2px solid #1f4e79; /* Darker blue */
             margin-bottom: 5px;
         }
         .info, .contact {
             font-size: 16px;
             line-height: 1.6;
-            color: blue;
+            color: #1f4e79; /* Darker blue */
         }
         .skills-section {
             display: flex;
@@ -32,13 +32,13 @@ st.markdown("""
             gap: 10px;
             font-size: 14px;
             margin-top: 10px;
-            color: blue;
+            color: #1f4e79; /* Darker blue */
         }
         .skills-section span {
             background: #f0f0f0;
             padding: 5px 10px;
             border-radius: 5px;
-            color: blue;
+            color: #1f4e79; /* Darker blue */
         }
     </style>
 """, unsafe_allow_html=True)
