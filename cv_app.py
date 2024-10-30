@@ -2,6 +2,9 @@ import streamlit as st
 
 st.markdown("""
     <style>
+        body {
+            background-color: white;
+        }
         .title {
             font-size: 36px;
             font-weight: bold;
@@ -98,7 +101,7 @@ elif section == "Certifications":
 
 elif section == "Find Me Online":
     st.markdown('<div class="section-title">FIND ME ONLINE</div>', unsafe_allow_html=True)
-    st.markdown('[Zindi Africa](https://zindi.africa/users/Thembani_Maswanganyi)', unsafe_allow_html=True)
-    st.markdown('[YouTube](https://www.youtube.com/@tief_everything)', unsafe_allow_html=True)
-    st.markdown('[GitHub](https://github.com/thembani47)', unsafe_allow_html=True)
+    st.markdown('Zindi Africa', unsafe_allow_html=True)
+    st.markdown('YouTube', unsafe_allow_html=True)
+    st.markdown('GitHub', unsafe_allow_html=True)
     st.markdown("Thank you for viewing my interactive CV! Connect with me on any of the platforms above.")
