@@ -53,8 +53,7 @@ elif section == "Education":
 
 elif section == "Skills":
     st.markdown('<div class="section-title">SKILLS</div>', unsafe_allow_html=True)
-
-    st.markdown(" ")   
+   
     st.markdown("**FrontEnd**")
     st.markdown('<div class="skills-section"><span>HTML</span><span>CSS</span><span>Angular</span><span>JavaScript</span><span>Bootstrap</span></div>', unsafe_allow_html=True)
 
