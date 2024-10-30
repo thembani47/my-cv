@@ -8,22 +8,23 @@ st.markdown("""
         .title {
             font-size: 36px;
             font-weight: bold;
-            color: black;
+            color: blue;
         }
         .subtitle {
             font-size: 24px;
-            color: #1f77b4;
+            color: blue;
         }
         .section-title {
             font-size: 18px;
             font-weight: bold;
-            color: black;
-            border-bottom: 2px solid black;
+            color: blue;
+            border-bottom: 2px solid blue;
             margin-bottom: 5px;
         }
         .info, .contact {
             font-size: 16px;
             line-height: 1.6;
+            color: blue;
         }
         .skills-section {
             display: flex;
@@ -31,11 +32,13 @@ st.markdown("""
             gap: 10px;
             font-size: 14px;
             margin-top: 10px;
+            color: blue;
         }
         .skills-section span {
             background: #f0f0f0;
             padding: 5px 10px;
             border-radius: 5px;
+            color: blue;
         }
     </style>
 """, unsafe_allow_html=True)
