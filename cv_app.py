@@ -1,6 +1,5 @@
 import streamlit as st
 
-# Apply custom CSS for styling
 st.markdown("""
     <style>
         .title {
@@ -38,24 +37,20 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Sidebar Navigation
 st.sidebar.title("Navigate")
 section = st.sidebar.radio("Go to", ["Home", "Education", "Skills", "Experience", "Certifications", "Find Me Online"])
 
-# Home Section
 if section == "Home":
     st.markdown('<div class="title">THEMBANI MASWANGANYI</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Data Analyst</div>', unsafe_allow_html=True)
     st.markdown('<div class="contact">📞 078 430 7885 | 📧 t.maswanganyi101@gmail.com | 🌍 South Africa, Johannesburg</div>', unsafe_allow_html=True)
     st.markdown("Welcome to my interactive CV! Use the sidebar to navigate through my experience, skills, and more.")
 
-# Education Section
 elif section == "Education":
     st.markdown('<div class="section-title">EDUCATION</div>', unsafe_allow_html=True)
     st.markdown("**B.Sc. Mathematical Science**  \nUniversity of Limpopo  \n01/2015 - 12/2018", unsafe_allow_html=True)
     st.markdown("**Data Science**  \nExplore AI Academy  \n01/2022 - 09/2022", unsafe_allow_html=True)
 
-# Skills Section
 elif section == "Skills":
     st.markdown('<div class="section-title">SKILLS</div>', unsafe_allow_html=True)
 
@@ -79,7 +74,6 @@ elif section == "Skills":
     st.markdown("**Additional**")
     st.markdown('<div class="skills-section"><span>C++</span><span>Microsoft Azure</span><span>Power BI</span><span>AWS</span></div>', unsafe_allow_html=True)
 
-# Experience Section
 elif section == "Experience":
     st.markdown('<div class="section-title">EXPERIENCE</div>', unsafe_allow_html=True)
     
@@ -97,14 +91,12 @@ elif section == "Experience":
     - Created data visualizations and dashboards using Power BI.
     """, unsafe_allow_html=True)
 
-# Certifications Section
 elif section == "Certifications":
     st.markdown('<div class="section-title">CERTIFICATION</div>', unsafe_allow_html=True)
     st.markdown("**Maths Olympiad** - AMESA", unsafe_allow_html=True)
     st.markdown("**Problem Solving (Basic)** - HackerRank", unsafe_allow_html=True)
     st.markdown("**Python** - HackerRank", unsafe_allow_html=True)
 
-# Find Me Online Section
 elif section == "Find Me Online":
     st.markdown('<div class="section-title">FIND ME ONLINE</div>', unsafe_allow_html=True)
     st.markdown('[Zindi Africa](https://zindi.africa/users/Thembani_Maswanganyi)', unsafe_allow_html=True)
